@@ -8,6 +8,7 @@ function loadDBConnection({dbUri}) {
       db = await mongoose.connect(dbUri, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
+        dbName: 'promotions'
       })
       console.log('- Connected to MongoDB')
     },
