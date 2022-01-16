@@ -11,7 +11,7 @@ const productsRouteController = async ctx => {
 
   const products = productById
     ? [productById]
-    : await Product.paginate({$or: [{brand: {$regex: text}}, {description: {$regex: text}}]}, options)
+    : await Product.paginate({}, options)
 
   return (ctx.body = products)
 }
