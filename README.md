@@ -21,3 +21,5 @@ The third step will be to run the following command:
 Make sure the database is running before running the above command.
 
 # To run Docker Image
+
+Check this repository https://github.com/vrborjasm/walmart-challenge.git
