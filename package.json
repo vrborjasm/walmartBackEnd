@@ -32,7 +32,7 @@
     "@koa/cors": "^3.1.0",
     "@shopify/jest-koa-mocks": "^3.1.0",
     "dotenv": "^10.0.0",
-    "joi": "^17.4.0",
+    "joi": "^17.6.0",
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0",
     "koa-logger": "^3.2.1",
