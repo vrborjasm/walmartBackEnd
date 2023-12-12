@@ -29,7 +29,7 @@
     "prettier": "^2.3.2"
   },
   "dependencies": {
-    "@koa/cors": "^3.1.0",
+    "@koa/cors": "^5.0.0",
     "@shopify/jest-koa-mocks": "^3.1.0",
     "dotenv": "^10.0.0",
     "joi": "^17.4.0",
